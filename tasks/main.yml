@@ -1,0 +1,2 @@
+- name: Ensure {{ javaPackage }} is installed and up to date
+  package: name={{ javaPackage }} state=latest
