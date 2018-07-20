@@ -1,4 +1,5 @@
 galaxy_info:
+  role_name: java
   author: jumperfly
   description: ansible-role-java
   license: Apache
