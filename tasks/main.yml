@@ -1,2 +1,4 @@
-- name: Ensure {{ javaPackage }} is installed and up to date
-  package: name={{ javaPackage }} state=latest
+- name: Ensure java is installed
+  package:
+    name: "{{ java_package }}-{{ java_version }}"
+    state: installed

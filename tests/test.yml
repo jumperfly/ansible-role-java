@@ -1,0 +1,4 @@
+- hosts: default
+  become: yes
+  roles:
+    - java
